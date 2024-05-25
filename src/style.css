@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background-image: url("https://admin.zjnm.cn/admin/api/download/app-back-img/2 21.png");
+  background-size: cover;
+}
+
+#wakeApp {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  background: #fff;
+  padding: 10px 16px;
+  align-items: center;
+}
+
+.content-title {
+  flex: 1;
+  margin-left: 12px;
+}
+
+.btn-card {
+  width: 72px;
+  height: 28px;
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.title-icon {
+  width: 6.25rem;
+  height: 6.25rem;
+}
+
+.home-title {
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 800;
+  margin-top: 1rem;
+}
+
+.home-subtitle {
+  font-size: 1rem;
+  color: #959595;
+  margin-top: 0.25rem;
+}
+
+.home-tips {
+  padding: 10px 20px 0;
+  font-size: 14px;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  color: #1f1f1f;
+}
+
+.home-button {
+  width: 11.25rem;
+  height: 3.125rem;
+  border-radius: 3.125rem;
+  background-color: #3f963f;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 3.125rem;
+  color: #fff;
+  margin-top: 3.125rem;
+}
+
+.down-text {
+  font-size: 14px;
+  text-align: center;
+  color: #000;
+  margin: 30px auto;
+  padding: 0 40px;
+}
+
+.mask {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  bottom: 0;
+  right: 0;
+  z-index: 9999999;
+}
+
+.box .goBrowser_box {
+  float: right;
+  margin-right: 65px;
+  margin-top: 70px;
+  color: #fff;
+}
+
+.box .goBrowser_box .arrow {
+  position: relative;
+  left: 100px;
+}
+
+.box .goBrowser_box .arrow::after {
+  content: "";
+  position: absolute;
+  border: 0 solid transparent;
+  border-right: 2px dashed;
+  border-radius: 0 0 50px 0;
+  top: -54px;
+  left: -32px;
+  width: 50px;
+  height: 50px;
+}
+
+.arrow_left {
+  position: absolute;
+  top: -55px;
+  left: 16px;
+  width: 12px;
+  border-radius: 3px;
+  border-top: 2px solid;
+  transform: rotate(50deg);
+}
+
+.arrow_right {
+  position: absolute;
+  width: 10px;
+  top: -56px;
+  border-top: 2px solid;
+  border-radius: 3px;
+  transform: rotate(-40deg);
+  left: 10px;
+}
+
+.open-btn {
+  display: block;
+  font-size: 12px;
+  width: 72px;
+  height: 28px;
+  text-align: center;
+  line-height: 28px;
+  background: #28B147;
+  color: #fff;
+  border-radius: 20px
+}
