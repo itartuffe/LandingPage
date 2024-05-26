@@ -1,7 +1,8 @@
 /// <reference types="vite/client" />
 
 interface ImportMetaEnv{
-  readonly VITE_BASE: string;
+  readonly YYT_BASE_URL: string;
+  readonly YYT_PORT: number;
 
 }
 
