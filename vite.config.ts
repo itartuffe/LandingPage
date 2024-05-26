@@ -1,5 +1,5 @@
-import { defineConfig } from 'vite'
+import { defineConfig, loadEnv } from 'vite'
 
-export default defineConfig({
-  base: import.meta.env.VITE_BASE,
+export default defineConfig(( {mode} ) => {
+  return {}
 })
